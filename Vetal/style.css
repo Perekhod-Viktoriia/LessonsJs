@@ -1,1 +1,78 @@
-ы
+#list {
+    counter-reset: li; 
+    list-style: none; 
+    padding: 0;
+    margin: 0 20px;
+    min-width: 300px;
+}
+#list li {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    margin: 7px 0;
+    #background: rgba(175, 238, 238, 0.82);
+    border-bottom: 1px solid lightgrey;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+#list li:last-child
+{
+    margin-bottom: 10px;    
+}
+
+#borderForList
+{
+    border: 1px solid lightgrey;
+    margin:  0 20px;
+    padding:  0 ;
+    display: inline-block;
+    background: #F7F7F7;
+}
+button
+{
+    margin-bottom: 10px;
+    border: 0;
+    background: rgba(32, 178, 170, 0.71);
+    padding: 5px 5px;
+    width: 30%; 
+}
+
+body
+{
+    font: 14px Arial;
+    
+}
+
+#task
+{
+    border: 1px solid lightgrey;
+    margin:  10px 20px;
+    padding:  0 ;
+    background: #F7F7F7;
+    
+}
+
+#task p
+{
+    padding:  0 20px;
+}
+
+.title
+{
+    background-color:rgba(32, 178, 170, 0.71);
+    border-bottom: 1px solid #dbdbdb;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+#button
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+hr
+{
+    border: 0;
+    border-top: 1px solid lightgrey;
+}
